@@ -9,7 +9,6 @@ from pgmpy.estimators import MaximumLikelihoodEstimator
 from pgmpy.models import BayesianNetwork
 from pgmpy.inference import VariableElimination
 
-print("Pritesh Tayade Roll-no:15")
 heartDisease = pd.read_csv(r'Data-Files\8a_heart_data.csv')
 heartDisease = heartDisease.replace('?',np.nan)
 

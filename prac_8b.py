@@ -3,7 +3,7 @@
  Implement the non-parametric Locally Weighted Regression algorithm in order to fit data points.
  Select appropriate data set for your experiment and draw graphs.
 """
-print("Name: Pritesh Tayade \t Roll no: 15")
+
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np

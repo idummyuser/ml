@@ -1,6 +1,5 @@
 # Prac 1a - Linear Regression Model
-print("Prac 1a - Linear Regression Model")
-print("Name - Pritesh Tayade - Roll No 15")
+
 print("------------------------------------------------------")
 import random
 from sklearn.linear_model import LinearRegression

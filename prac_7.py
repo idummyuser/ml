@@ -1,9 +1,5 @@
-# hierarchical
-'''
-Implement the classification model using clustering for the following techniques with hierarchical clustering with Prediction,
-Test Score and Confusion Matrix
-'''
-print("Name: Pritesh Tayade \t Roll no: 15")
+# hierarchical:: Implement the classification model using clustering for the following techniques with hierarchical clustering with Prediction, Test Score and Confusion Matrix
+
 # Importing the libraries
 import numpy as nm
 import matplotlib.pyplot as mtp

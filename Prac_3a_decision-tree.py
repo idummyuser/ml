@@ -1,7 +1,6 @@
 # Decision tree
 # Q. Write a program to implement Decision Tree and Random forest with Prediction, Test Score and Confusion Matrix.
 
-print("Name: Pritesh Tayade \tRoll No: 15")
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
@@ -10,7 +9,7 @@ from sklearn.metrics import confusion_matrix, accuracy_score, classification_rep
 
 # Read Datasets
 def read_datasets():
-    datasets = pd.read_csv(r"C:\Workspace\un-org\MScIT\Part-II-2022-23\Sem-3\Machine-Learning\practical\Pritesh\MLPracsProject\Data-Files\Prac-3a-decision-tree.csv",
+    datasets = pd.read_csv(r"Data-Files\Prac-3a-decision-tree.csv",
                            sep=",", header=None)
     print(f"Dataset Length : {len(datasets)}")
     print(f"Dataset Shape: {datasets.shape}")

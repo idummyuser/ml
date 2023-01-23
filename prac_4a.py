@@ -1,9 +1,8 @@
-# Least Square
+# Least Square Regression
 
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-print("Name: Pritesh Tayade \tRoll No: 15")
 
 plt.rcParams["figure.figsize"] = (12.0, 9.0)
 

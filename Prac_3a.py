@@ -1,7 +1,6 @@
 # Decision tree
 # Q. Write a program to implement Decision Tree and Random forest with Prediction, Test Score and Confusion Matrix.
 
-print("Name: Pritesh Tayade \tRoll No: 15")
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier

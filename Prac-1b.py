@@ -1,11 +1,10 @@
-print("Prac 1b - Find S")
-print("Name - Pritesh Tayade - Roll No 15")
-print("------------------------------------------------------")
+#FIND-S algorithm
+
 import csv
 
 num_attributes = 6
 dataset = []
-with open(r"C:\Workspace\un-org\MScIT\Part-II-2022-23\Sem-3\Machine-Learning\practical\Pritesh\MLPracsProject\Data-Files\data_find_s_1b.csv", "r") as csvfile:
+with open(r"Data-Files\data_find_s_1b.csv", "r") as csvfile:
     reader = csv.reader(csvfile)
     for row in reader:
         dataset.append(row)

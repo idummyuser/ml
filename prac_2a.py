@@ -1,12 +1,14 @@
+#Perform Data Loading, Feature selection (Principal Component analysis) and Feature Scoring and Ranking
+
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 
-print("Name: Pritesh Tayade \tRoll No: 15")
+
 
 # Reading dataset using pandas
-url = r'C:\Workspace\un-org\MScIT\Part-II-2022-23\Sem-3\Machine-Learning\practical\Pritesh\MLPracsProject\Data-Files\data_2a.csv'
+url = r'Data-Files\data_2a.csv'
 names = ["sepal-length", "sepal-width", "petal-length", "petal-width", "class"]
 dataset = pd.read_csv(url, names=names)
 

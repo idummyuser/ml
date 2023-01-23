@@ -1,9 +1,5 @@
 # KNN - Write a program to implement k-Nearest Neighbour algorithm to classify the iris data set.
 
-""" Write a program to implement k-Nearest
-Neighbour algorithm to classify the iris data set.
-"""
-print("Name: Pritesh Tayade \tRoll No: 15")
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import make_pipeline
@@ -29,7 +25,6 @@ knn = KNeighborsClassifier(n_neighbors=5, p=2, weights='uniform', algorithm='aut
 knn.fit(X_train_std, Y_train)
 
 # Evaluate the training and test score
-print("Name: Pritesh Tayade \t Roll no: 15")
 print("Training Accuracy score: %.3f " % knn.score(X_train_std, Y_train))
 print("Test Accuracy score: %.3f" % knn.score(X_test_std, Y_test))
 

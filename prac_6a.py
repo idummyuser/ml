@@ -1,11 +1,10 @@
-# Q. 6A. Implement the different Distance methods (Euclidean, Manhattan Distance, Minkowski Distance)
+# 6A. Implement the different Distance methods (Euclidean, Manhattan Distance, Minkowski Distance)
 # with Prediction, Test Score and Confusion Matrix.
 
 
 from math import sqrt
 from sklearn.metrics import confusion_matrix, classification_report
 
-print("Name: Pritesh Tayade \t Roll no: 15")
 def euclidian_distance(a, b):
     return sqrt(sum((e1 - e2) ** 2 for e1, e2 in zip(a, b)))
 

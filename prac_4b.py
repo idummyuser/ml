@@ -1,11 +1,10 @@
+#Logistic regression
+
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import confusion_matrix, accuracy_score
-
-
-print("Name: Pritesh Tayade \tRoll No: 15")
 
 dataset = pd.read_csv(r"Data-Files/prac-4b-diabetes.csv")
 print(dataset.head())

@@ -17,7 +17,6 @@ raw_data = pd.read_csv(
 
 # Import standardization functions from scikit-learn
 
-print("Name: Pritesh Tayade \t Roll no: 15")
 # Standardize the data set
 scaler = StandardScaler()
 scaler.fit(raw_data.drop('TARGET CLASS', axis=1))

@@ -1,8 +1,9 @@
+#Candidate- Elimination algorithm
+
 import numpy as np
 import pandas as pd
 
-print("Name: Pritesh Tayade \tRoll No: 15")
-data = pd.read_csv(r'C:\Workspace\un-org\MScIT\Part-II-2022-23\Sem-3\Machine-Learning\practical\Pritesh\MLPracsProject\Data-Files\data_find_s_1b.csv')
+data = pd.read_csv(r'Data-Files\data_find_s_1b.csv')
 concepts = np.array(data.iloc[:, 0:-1])
 print("\nInstances are:\n", concepts)
 target = np.array(data.iloc[:, -1])
