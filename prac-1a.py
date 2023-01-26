@@ -1,4 +1,5 @@
 # Prac 1a - Linear Regression Model
+# Design a simple machine learning model to train the training instances and test the same using Python.
 
 print("------------------------------------------------------")
 import random
