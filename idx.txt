@@ -18,9 +18,7 @@
 
 6B. K means - Implement the classification model using clustering for the following techniques with K means clustering with Prediction, Test Score and Confusion Matrix.
 
-7A. hierarchical - Implement the classification model using clustering for the following techniques with hierarchical clustering with Prediction, Test Score and Confusion Matrix
-
-7B. Rule based method  - Implement the Rule based method and test the same.
+7. hierarchical - Implement the classification model using clustering for the following techniques with hierarchical clustering with Prediction, Test Score and Confusion Matrix
 
 8A. Bayesian network-  Write a program to construct a Bayesian network considering medical data. Use this model to demonstrate the diagnosis of heart patients using standard Heart Disease Data Set.
 
